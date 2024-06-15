@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon clone</title>
+    <link rel="shortcut icon" type="x-icon" href="/images/Amazon_icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/css/splide.min.css
+" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="headerlogo border">
+              <div class="logo">
+            
+              </div>
+        </div>
+        <div class="location border">
+            <p class="loc1">Deliver to</p>
+                 <div class="location-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                      <p class="loc2">India</p>
+                 </div>
+        </div>
+
+        <div class="header-search">
+            <select name="" id="" class="search-select">
+                <option value="">All</option>
+                <option value="">Arts & Crafts</option>
+                <option value="">Automotive</option>
+                <option value="">Baby</option>
+                <option value="">Beauty & Personal care</option>
+                <option value="">Books</option>
+                <option value="">Boys fation</option>
+                <option value="">Computors</option>
+                <option value="">Deals</option>
+                <option value="">Digital Music</option>
+                <option value="">Electronics</option>
+                <option value="">Girl's Fashion</option>
+                <option value="">Health & Household</option>
+                <option value="">Home & Kitchens</option>
+                <option value="">Industrial & scientific</option>
+                <option value="">Kindle StoreS</option>
+            </select>
+            <input type="text" placeholder="Search Amazon" class="search-input">
+            <div class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+        </div>
+
+        <!-- language navbar -->
+        <div class="language border">
+                <p class="lang-select">EN</p>
+        </div>
+
+        <!-- account -->
+        <div class="account border">
+            <div class="acc-ex">
+                <p>hellow,Sign in</p>
+             <h1>Account & Lists</h1>
+            </div>
+        </div>
+
+        <div class="return border">
+            <div class="ro">
+                <p>Returns</p>
+                <h1>& Orders</h1>
+            </div>
+        </div>
+
+        <div class="cart border">
+            <div class="carts">
+                 <div class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                 <h1>Cart</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- list -->
+    <div class="list">
+        <div class="all-list border">
+            <div><i class="fa-solid fa-bars"></i></div>
+            All</div>
+        <div class="list-a">
+            <a href="" class="border">Amazon Mini Tv</a>
+            <a href="" class="border">Sell</a>
+            <a href="" class="border">Best Seller's</a>
+            <a href="" class="border">Today's Deals</a>
+            <a href="" class="border">Mobiles</a>
+            <a href="" class="border">New Releases</a> 
+            <a href="" class="border">Costomer Service</a>
+            <a href="" class="border">Prime</a>
+            <a href="" class="border">Electronics</a>
+            <a href="" class="border">Home & Kitchens</a>
+            <a href="" class="border">Gift Ideas</a>
+         </div>  
+    </div>
+    
+    <!-- slider -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"> <img src="images/cover1.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="images/cover2.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="images/cover3.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="images/cover4.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="images/cover5.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="images/cover6.jpg" alt=""></div>
+    </div>
+    <div class="slider-button swiper-button-next"></div>
+    <div class="slider-button swiper-button-prev"></div>
+    <!-- <div class="swiper-pagination"></div> -->
+  </div>
+<!-- Boxes -->
+<div class="boxes">
+    <div class="box1 box">
+        <h1 class="boxes-h1-tag">Smartphones that suit your budget</h1>
+        <div class="boxm ">
+           
+             <div class="box1-img1">
+                     <img src="images/Budget under 10k.jpg" class="box1img1style" alt="">
+                    <a href="">Budget | Under ₹10,000</a>
+             </div>
+
+             <div class="box1-img2">
+                <img src="images/mid range 10 to 25k.jpg" class="box2img1style" alt="">
+                <a href="">Mid range | ₹10,000 - ₹25,000</a>
+            </div>
+
+             <div class="box1-img3">
+                <img src="images/premium 25k to 40k.jpg" class="box3img1style" alt="">
+                <a href="">Premium | ₹25,000 - ₹40,000</a>
+            </div>
+
+             <div class="box1-img4">
+                <img src="images/Ultra premium.jpg" class="box4img1style" alt="">
+                <a href="">Ultra premium | Above ₹40,000</a>
+            </div>
+        </div>
+        <a href="" class="boxes-a-tag">See all offers</a>
+    </div>
+
+    <div class="box2 box">
+        <h1 class="boxes-h1-tag">50%-80% Off | Men"s Fashion</h1>
+        <div class="boxm box2margin">
+           
+             <div class="box1-img1">
+                     <img src="images/box2img1.jpeg" class="box1img1style" alt="">
+                    <a href="">Clothing</a>
+             </div>
+
+             <div class="box1-img2">
+                <img src="images/box2img2.jpeg" class="box2img1style" alt="">
+                <a href="">Footwear</a>
+            </div>
+
+             <div class="box1-img3">
+                <img src="images/box2img3.jpeg" class="box3img1style" alt="">
+                <a href="">Watches</a>
+            </div>
+
+             <div class="box1-img4">
+                <img src="images/box2img4.jpeg" class="box4img1style" alt="">
+                <a href="">Bags & language</a>
+            </div>
+        </div>
+        <a href="" class="boxes-a-tag">See all offers</a>
+    </div>
+
+
+    <div class="box3 box">
+        <h1 class="boxes-h1-tag">Great Freedom sale</h1>
+        <div class="boxm ">
+           <img class="box3-imgstyle" src="images/box3.jpg" alt="">
+        </div>
+        <a href="" class="boxes-a-tag">See all</a>
+    </div>
+
+
+    <div class="box4 box">
+        <h1 class="boxes-h1-tag">Beauty Picks</h1>
+        <div class="boxm ">
+           <img class="box3-imgstyle" src="images/box4.jpg" alt="">
+        </div>
+        <a href="" class="boxes-a-tag">Shop now</a>
+        .
+    </div>
+
+
+    <div class="box5 box">
+        <h1 class="boxes-h1-tag">Starting ₹129 | Monitors, storage, accessories & more</h1>
+        <div class="boxm ">
+           <img class="box3-imgstyle" src="images/box5.jpg" alt="">
+        </div>
+        <a href="" class="boxes-a-tag">See all</a>
+    </div>
+
+
+    <div class="box6 box">
+        <h1 class="boxes-h1-tag">Starting ₹79 | Home, kitchen & outdoors</h1>
+        <div class="boxm box2margin">
+           
+             <div class="box1-img1">
+                     <img src="images/box6img1.jpg" class="box1img1style" alt="">
+                    <a href="">Home decor & essential</a>
+             </div>
+
+             <div class="box1-img2">
+                <img src="images/box6img2.jpg" class="box2img1style" alt="">
+                <a href="">Cookware & Dining</a>
+            </div>
+
+             <div class="box1-img3">
+                <img src="images/box6img3.jpg" class="box3img1style" alt="">
+                <a href="">Furniture & mattresses</a>
+            </div>
+
+             <div class="box1-img4">
+                <img src="images/box6img4.jpg" class="box4img1style" alt="">
+                <a href="">Tools & home improvements</a>
+            </div>
+        </div>
+        <a href="" class="boxes-a-tag">See all offers</a>
+    </div>
+
+
+
+    <div class="box7 box">
+        <h1 class="boxes-h1-tag">Cases and covers for top smartphones</h1>
+        <div class="boxm box2margin">
+           
+             <div class="box1-img1">
+                     <img src="images/box7img1.jpg" class="box1img1style" alt="">
+                    <a href="">iPhone 14 | Starting ₹89</a>
+             </div>
+
+             <div class="box1-img2">
+                <img src="images/box7img2.jpg" class="box2img1style" alt="">
+                <a href="">Samsung Galaxy S22 |Starting ₹79</a>
+            </div>
+
+             <div class="box1-img3">
+                <img src="images/box7img3.jpg" class="box3img1style" alt="">
+                <a href="">OnePlus nord ce 3 | Strating ₹79</a>
+            </div>
+
+             <div class="box1-img4">
+                <img src="images/box7img4.jpg" class="box4img1style" alt="">
+                <a href="">Redmi 12C| Strating ₹79</a>
+            </div>
+        </div>
+        <a href="" class="boxes-a-tag">See all offers</a>
+    </div>
+
+
+    <div class="box8 box">
+        <h1 class="boxes-h1-tag">Rakhi specials | Up to 60% off + Extra up to ₹120 cashback</h1>
+        <div class="boxm ">
+           <img class="box3-imgstyle" src="images/box8.jpg" alt="">
+        </div>
+        <a href="" class="boxes-a-tag">See all</a>
+    </div>
+
+</div>
+    
+    <!-- swiper1 -->
+    <div class="swiper1">
+        <div class="label1">
+            <h1>Blockbuster deals</h1>
+            <a href="">See All Deals</a>
+        </div>
+        <div id="image-slider" class="splide">
+            <div class="splide__track">
+                  <ul class="splide__list">
+                      <li class="splide__slide">
+                            <div class="item1">
+                                <div class="itemimg"><img src="images/swiper1img1.jpg" alt=""></div>
+                                
+                                    <div class="itemoffer">
+                                        <a href="" id="upto">Up to 27% off</a>
+                                        <a href="" id="gifl">Great Indian Festival</a>
+                                    </div>
+                                    <div class="itemname">Realme Narzo N53 || Starting from 7999</div>
+                                
+                                
+                            </div>
+                            <div class="item1">
+                                <div class="itemimg"><img src="images/swiper1img2.jpg" alt=""></div>
+                                
+                                <div class="itemoffer">
+                                    <a href="" id="upto">Up to 89% off</a>
+                                    <a href="" id="gifl">Great Indian Festival</a>
+                                </div>
+                                <div class="itemname">Sale Prices live on Smartwatches...</div>
+                            </div>
+                            <div class="item1">
+                                <div class="itemimg"><img src="images/swiper1img3.jpg" alt=""></div>
+                                
+                                <div class="itemoffer">
+                                    <a href="" id="upto">Up to 51% off</a>
+                                    <a href="" id="gifl">Great Indian Festival</a>
+                                </div>
+                                <div class="itemname">Grab or gone festive offers-tablets</div>
+                            </div>
+                            <div class="item1">
+                                <div class="itemimg"><img src="images/swiper1img4.jpg" alt=""></div>
+                                
+                                <div class="itemoffer">
+                                    <a href="" id="upto">Up to 62% off</a>
+                                    <a href="" id="gifl">Great Indian Festival</a>
+                                </div>
+                                <div class="itemname">Juicer mixer grinder from top brands</div>
+                            </div>
+                            <div class="item1">
+                                <div class="itemimg"><img src="images/swiper1img5.jpg" alt=""></div>
+                                
+                                <div class="itemoffer">
+                                    <a href="" id="upto">Up to 86% off</a>
+                                    <a href="" id="gifl">Great Indian Festival</a>
+                                </div>
+                                <div class="itemname">Top headsets from One-plus, Samsung</div>
+                            </div>
+                            <div class="item1">
+                                <div class="itemimg"><img src="images/swiper1img6.jpg" alt=""></div>
+                                
+                                <div class="itemoffer">
+                                    <a href="" id="upto">Up to 35% off</a>
+                                    <a href="" id="gifl">Great Indian Festival</a>
+                                </div>
+                                <div class="itemname">Honor 90 5G || Starting from 26999</div>
+                            </div>
+                      </li>
+
+                      <li class="splide__slide">
+                        <div class="item1">
+                            <div class="itemimg"><img src="images/swiper1img7.jpg" alt=""></div>
+                            
+                                <div class="itemoffer">
+                                    <a href="" id="upto">Up to 84% off</a>
+                                    <a href="" id="gifl">Great Indian Festival</a>
+                                </div>
+                                <div class="itemname">All clothing: Levi's,BIBA, U.S.POLO</div>
+                            
+                            
+                        </div>
+                        <div class="item1">
+                            <div class="itemimg"><img src="images/swiper1img8.jpg" alt=""></div>
+                            
+                            <div class="itemoffer">
+                                <a href="" id="upto">Up to 67% off</a>
+                                <a href="" id="gifl">Great Indian Festival</a>
+                            </div>
+                            <div class="itemname">Best styles in Footwear & Handbags</div>
+                        </div>
+                        <div class="item1">
+                            <div class="itemimg"><img src="images/swiper1img9.jpg" alt=""></div>
+                            
+                            <div class="itemoffer">
+                                <a href="" id="upto">Up to 26% off</a>
+                                <a href="" id="gifl">Great Indian Festival</a>
+                            </div>
+                            <div class="itemname">Itel P55 5G Starting from 8999</div>
+                        </div>
+                        <div class="item1">
+                            <div class="itemimg"><img src="images/swiper1img10.jpg" alt=""></div>
+                            
+                            <div class="itemoffer">
+                                <a href="" id="upto">Up to 56% off</a>
+                                <a href="" id="gifl">Great Indian Festival</a>
+                            </div>
+                            <div class="itemname">Alexa & Fire TV Stick Starting 1799</div>
+                        </div>
+                        <div class="item1">
+                            <div class="itemimg"><img src="images/swiper1img11.jpg" alt=""></div>
+                            
+                            <div class="itemoffer">
+                                <a href="" id="upto">Deal of the day</a>
+                                <a href="" id="gifl">Great Indian Festival</a>
+                            </div>
+                            <div class="itemname">One Plus 11 5G || Starting from 49999</div>
+                        </div>
+                        <div class="item1">
+                            <div class="itemimg"><img src="images/swiper1img12.jpg" alt=""></div>
+                            
+                            <div class="itemoffer">
+                                <a href="" id="upto">Up to 42% off</a>
+                                <a href="" id="gifl">Great Indian Festival</a>
+                            </div>
+                            <div class="itemname">Skincare: Garniear, Mamaearth & More</div>
+                        </div>
+                      </li>
+                      <li class="splide__slide">
+                        <div class="item1">
+                            <div class="itemimg"><img src="images/swiper1img13.jpg" alt=""></div>
+                            
+                                <div class="itemoffer">
+                                    <a href="" id="upto">Up to 48% off</a>
+                                    <a href="" id="gifl">Great Indian Festival</a>
+                                </div>
+                                <div class="itemname">Sony Headphones & Speakers</div>
+                            
+                            
+                        </div>
+                        <div class="item1">
+                            <div class="itemimg"><img src="images/swiper1img14.jpg" alt=""></div>
+                            
+                            <div class="itemoffer">
+                                <a href="" id="upto">Up to 43% off</a>
+                                <a href="" id="gifl">Great Indian Festival</a>
+                            </div>
+                            <div class="itemname">HareCare: L'Oreal, Dove & more</div>
+                        </div>
+                        <div class="item1">
+                            <div class="itemimg"><img src="images/swiper1img15.jpg" alt=""></div>
+                            
+                            <div class="itemoffer">
+                                <a href="" id="upto">Up to 60% off</a>
+                                <a href="" id="gifl">Great Indian Festival</a>
+                            </div>
+                            <div class="itemname">Power & Hand Tools</div>
+                        </div>
+                        <div class="item1">
+                            <div class="itemimg"><img src="images/swiper1img16.jpg" alt=""></div>
+                            
+                            <div class="itemoffer">
+                                <a href="" id="upto">Up to 46% off</a>
+                                <a href="" id="gifl">Great Indian Festival</a>
+                            </div>
+                            <div class="itemname">Amazing Offers on Books bundles</div>
+                        </div>
+                        <div class="item1">
+                            <div class="itemimg"><img src="images/swiper1img17.jpg" alt=""></div>
+                            
+                            <div class="itemoffer">
+                                <a href="" id="upto">Up to 20% off</a>
+                                <a href="" id="gifl">Great Indian Festival</a>
+                            </div>
+                            <div class="itemname">Curated Deals on Helmets from vega</div>
+                        </div>
+                        <div class="item1">
+                            <div class="itemimg"><img src="images/swiper1img18.jpg" alt=""></div>
+                            
+                            <div class="itemoffer">
+                                <a href="" id="upto">Up to 61% off</a>
+                                <a href="" id="gifl">Great Indian Festival</a>
+                            </div>
+                            <div class="itemname">Sports Dumbbells & Weight Accessories</div>
+                        </div>
+                      </li>
+                  </ul>
+            </div>
+          </div>
+    </div>
+
+    <!-- boxes3 -->
+    <div class="boxesfour">
+        <div class="inboxx boxx">
+            <h1 class="boxes-h1-tag">Up to 40% off | Mobiles & Accessories</h1>
+            <div class="boxm box2margin">
+               
+                 <div class="boxes3inboximg">
+                         <img src="images/boxes3inbox1img.jpg" class="box1img1style" alt="">
+                        
+                 </div>
+            </div>
+            <a href="" class="boxes-a-tag">See all offers</a>
+        </div>
+
+        <div class="inbox2 boxx">
+            <h1 class="boxes-h1-tag">Up to 70% off | Products from stores near you</h1>
+            <div class="boxm box2margin">
+               
+                 <div class="box1-img1">
+                         <img src="images/boxes3inbox2img1.jpg" class="box1img1style" alt="">
+                        <a href="">Appliances</a>
+                 </div>
+    
+                 <div class="box1-img2">
+                    <img src="images/boxes3inbox2img2.jpg" class="box2img1style" alt="">
+                    <a href="">Furnitures</a>
+                </div>
+    
+                 <div class="box1-img3">
+                    <img src="images/boxes3inbox2img3.jpg" class="box3img1style" alt="">
+                    <a href="">Home</a>
+                </div>
+    
+                 <div class="box1-img4">
+                    <img src="images/boxes3inbox2img4.jpg" class="box4img1style" alt="">
+                    <a href="">Kitchen</a>
+                </div>
+            </div>
+            <a href="" class="boxes-a-tag">See all offers</a>
+        </div>
+
+        <div class="inbox3 boxx">
+            <h1 class="boxes-h1-tag">Starting ₹59 | Grocery deals | Amazon brands & more</h1>
+            <div class="boxm box2margin">
+               
+                 <div class="box1-img1">
+                         <img src="images/boxes3inbox3img1.jpg" class="box1img1style" alt="">
+                        <a href="">Starting ₹59 | Cooking & baking essentials</a>
+                 </div>
+    
+                 <div class="box1-img2">
+                    <img src="images/boxes3inbox3img2.jpg" class="box2img1style" alt="">
+                    <a href=""> Starting ₹69 | Rice, flour & pulses</a>
+                </div>
+    
+                 <div class="box1-img3">
+                    <img src="images/boxes3inbox3img3.jpg" class="box3img1style" alt="">
+                    <a href="">Starting ₹69 | Spices & masalas</a>
+                </div>
+    
+                 <div class="box1-img4">
+                    <img src="images/boxes3inbox3img4.jpg" class="box4img1style" alt="">
+                    <a href="">Starting ₹99 | Dry fruits, nuts & seeds</a>
+                </div>
+            </div>
+            <a href="" class="boxes-a-tag">See all offers</a>
+        </div>
+
+        <div class="inboxx boxx">
+            <h1 class="boxes-h1-tag">Up to 70% off | Amazon Renewed</h1>
+            <div class="boxm box2margin">
+               
+                 <div class="boxes3inboximg">
+                         <img src="images/boxes3inbox4img.jpg" class="box1img1style" alt="">
+                       
+                 </div>
+            </div>
+            <a href="" class="boxes-a-tag">See all offers</a>
+        </div>
+    </div>    
+
+
+         <!-- Train Ticket Booking -->
+        <div class="ticketbooking"><img src="images/Train.jpg" alt=""></div>
+
+
+        <!-- boxes2 -->
+        <div class="boxesfour">
+            <div class="inbox1 boxx">
+                <h1 class="boxes-h1-tag">PC components and storage devices</h1>
+                <div class="boxm box2margin">
+                   
+                     <div class="box1-img1">
+                             <img src="images/boxes2inbox1img1.jpg" class="box1img1style" alt="">
+                            <a href="">Up to 75% off | Gaming headphones</a>
+                     </div>
+        
+                     <div class="box1-img2">
+                        <img src="images/boxes2inbox1img2.jpg" class="box2img1style" alt="">
+                        <a href="">Up to 80% off | Keyboard and mouse</a>
+                    </div>
+        
+                     <div class="box1-img3">
+                        <img src="images/boxes2inbox1img3.jpg" class="box3img1style" alt="">
+                        <a href="">Up to 70% off | Storage devices</a>
+                    </div>
+        
+                     <div class="box1-img4">
+                        <img src="images/boxes2inbox1img4.jpg" class="box4img1style" alt="">
+                        <a href="">Up to 60% off | PC components</a>
+                    </div>
+                </div>
+                <a href="" class="boxes-a-tag">See all offers</a>
+            </div>
+
+            <div class="inbox2 boxx">
+                <h1 class="boxes-h1-tag">Starting ₹199 | Shoes, jewellery & more</h1>
+                <div class="boxm box2margin">
+                   
+                     <div class="box1-img1">
+                             <img src="images/boxes2inbox2img1.jpeg" class="box1img1style" alt="">
+                            <a href="">Sports Shoes</a>
+                     </div>
+        
+                     <div class="box1-img2">
+                        <img src="images/boxes2inbox2img2.jpg" class="box2img1style" alt="">
+                        <a href="">Jwellery & Accessories</a>
+                    </div>
+        
+                     <div class="box1-img3">
+                        <img src="images/boxes2inbox2img3.jpg" class="box3img1style" alt="">
+                        <a href="">Watches & smartwatches</a>
+                    </div>
+        
+                     <div class="box1-img4">
+                        <img src="images/boxes2inbox2img4.jpg" class="box4img1style" alt="">
+                        <a href="">Bags, wallets & luggage</a>
+                    </div>
+                </div>
+                <a href="" class="boxes-a-tag">See all offers</a>
+            </div>
+
+            <div class="inbox3 boxx">
+                <h1 class="boxes-h1-tag">Min. 60% off | Amazon Brands & more</h1>
+                <div class="boxm box2margin">
+                   
+                     <div class="box1-img1">
+                             <img src="images/boxes2inbox3img1.jpg" class="box1img1style" alt="">
+                            <a href="">Water bottles</a>
+                     </div>
+        
+                     <div class="box1-img2">
+                        <img src="images/boxes2inbox3img2.jpg" class="box2img1style" alt="">
+                        <a href="">Storage containers</a>
+                    </div>
+        
+                     <div class="box1-img3">
+                        <img src="images/boxes2inbox3img3.jpg" class="box3img1style" alt="">
+                        <a href="">Racks & holders</a>
+                    </div>
+        
+                     <div class="box1-img4">
+                        <img src="images/boxes2inbox3img4.jpg" class="box4img1style" alt="">
+                        <a href="">Cookware sets</a>
+                    </div>
+                </div>
+                <a href="" class="boxes-a-tag">See all offers</a>
+            </div>
+
+            <div class="inbox4 boxx">
+                <h1 class="boxes-h1-tag">Min. 60% off | Toys & games | Made for amazon</h1>
+                <div class="boxm box2margin">
+                   
+                     <div class="box1-img1">
+                             <img src="images/boxes2inbox4img1.jpg" class="box1img1style" alt="">
+                            <a href="">Learning & educational</a>
+                     </div>
+        
+                     <div class="box1-img2">
+                        <img src="images/boxes2inbox4img2.jpg" class="box2img1style" alt="">
+                        <a href="">Soft toys</a>
+                    </div>
+        
+                     <div class="box1-img3">
+                        <img src="images/boxes2inbox4img3.jpg" class="box3img1style" alt="">
+                        <a href="">Bikes, trikes & ride ons</a>
+                    </div>
+        
+                     <div class="box1-img4">
+                        <img src="images/boxes2inbox4img4.jpg" class="box4img1style" alt="">
+                        <a href="">Party supplies</a>
+                    </div>
+                </div>
+                <a href="" class="boxes-a-tag">See all offers</a>
+            </div>
+        </div>  
+        
+        <!-- Explore top offer in mobile accesories -->
+        <div class="swiper2">
+            <div class="label2">
+                <h1>Shop deals in top categories</h1>
+                <a href="">Explore all categories</a>
+            </div>
+            <div class="swiper2box">
+                <div class="swiper2pic"> <img src="images/Explore_top_offer_in_mobile_accesories1.jpg" alt=""></div>
+                <div class="swiper2pic"><img src="images/Explore_top_offer_in_mobile_accesories2.jpg" alt=""></div>
+                <div class="swiper2pic"><img src="images/Explore_top_offer_in_mobile_accesories3.jpg" alt=""></div>
+                <div class="swiper2pic"><img src="images/Explore_top_offer_in_mobile_accesories4.jpg" alt=""></div>
+                <div class="swiper2pic"><img src="images/Explore_top_offer_in_mobile_accesories5.jpg" alt=""></div>
+                <div class="swiper2pic"><img src="images/Explore_top_offer_in_mobile_accesories6.jpg" alt=""></div>
+                <div class="swiper2pic"><img src="images/Explore_top_offer_in_mobile_accesories7.jpg" alt=""></div>
+                
+                
+            </div>
+        </div>
+     <!-- Amazon Basic Headphones -->
+        <div class="swiper2">
+            <div class="label2">
+                <h1>Starting ₹399 | Amazon Basics headphones & speakers</h1>
+                <a href="">See all offers</a>
+            </div>
+            <div class="swiper2box">
+                <div class="swiper2pic"> <img src="images/amazonbasic1.jpg" alt=""></div>
+                <div class="swiper2pic"><img src="images/amazonbasic2.jpg" alt=""></div>
+                <div class="swiper2pic"><img src="images/amazonbasic3.jpg" alt=""></div>
+                <div class="swiper2pic"><img src="images/amazonbasic4.jpg" alt=""></div>
+                <div class="swiper2pic"><img src="images/amazonbasic5.jpg" alt=""></div>
+                <div class="swiper2pic "><img src="images/amazonbasic6.jpg" alt=""></div>
+            </div>
+        </div>
+        <!-- Swiper2 -->
+
+        <div class="swiper2">
+            <div class="label2">
+                <h1>Shop deals in top categories</h1>
+                <a href="">Explore all categories</a>
+            </div>
+            <div class="swiper2box">
+                <div class="swiper2pic"> <img src="images/swiper2img1.jpg" alt=""></div>
+                <div class="swiper2pic"><img src="images/swiper2img2.jpg" alt=""></div>
+                <div class="swiper2pic"><img src="images/swiper2img3.jpg" alt=""></div>
+                <div class="swiper2pic"><img src="images/swiper2img4.jpg" alt=""></div>
+                <div class="swiper2pic"><img src="images/swiper2img5.jpg" alt=""></div>
+                <div class="swiper2pic"><img src="images/swiper2img6.jpg" alt=""></div>
+                <div class="swiper2pic"><img src="images/swiper2img7.jpg" alt=""></div>
+                
+                
+            </div>
+        </div>
+    <!--footer-->
+    <div class="backtotop"><h1>Back to top</h1></div>
+    <div class="footer">
+        <div class="footerpadding">
+            <div class="footerlist">
+                <h1>Get to Know Us</h1>
+    
+                <p>About Us</p>
+                <p>Careers</p>
+                <p>Press Releases</p>
+                <p>Amazon Science</p>  
+            </div>
+            <div class="footerlist">
+                <h1>Connect with Us</h1>
+    
+                <p>Facebook</p>
+                <p>Twitter</p>
+                <p>Instagram</p> 
+            </div>
+            <div class="footerlist">
+                <h1>Make Money with Us</h1>
+    
+                <p>Sell on Amazon</p>
+                <p>Sell under Amazon Accelerator</p>
+                <p>Protect and Build Your Brand</p>
+                <p>Amazon Global Selling</p> 
+                <p>Become an Affiliate</p>
+                <p>Fulfilment by Amazon</p>
+                <p>Advertise Your Products</p>
+                <p>Amazon Pay on Merchants</p>
+            </div>
+            <div class="footerlist">
+                <h1>Let Us Help You</h1>
+    
+                <p>COVID-19 and Amazon</p>
+                <p>Your Account</p>
+                <p>Returns Centre</p>
+                <p>100% Purchase Protection</p> 
+                <p>Amazon App Download</p>
+                <p>Help</p> 
+            </div>
+        </div> 
+    </div>
+
+    <div class="footer2">
+        <div class="amalogo">
+            <div class="logoamz"><img src="images/amazon_logo.png" alt=""></div>
+            <div class="lanselect"><i class="fa-solid fa-globe"></i>
+                <select name="" id="selectla"> English
+                    <option value="volvo">English</option>
+                    <option value="saab">Hindi</option>
+                    <option value="opel">Marathi</option>
+                   
+                </select>
+               </div>
+        </div>
+        <div class="country">
+            <a href="">Australia</a>
+            <a href="">Brazil</a>
+            <a href="">Canada</a>
+            <a href="">China</a>
+            <a href="">France</a>
+            <a href="">Germany</a>
+            <a href="">Itely</a>
+            <a href="">Japan</a>
+            <a href="">Mexico</a>
+            <a href="">Netherland</a>
+            <a href="">Poland</a>
+            <a href="">Singapore</a>
+            <a href="">Spain</a>
+            <a href="">Turkey</a>
+            <a href="">United Arab Emirates</a> <br>
+            <a href="">United Kingdom</a>
+            <a href="">United States</a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js
+    "></script>
+    <script src="javascript.js"></script>
+</body>
+
+</html>
